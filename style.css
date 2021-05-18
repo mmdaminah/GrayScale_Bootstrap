@@ -1,0 +1,93 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+* {
+    box-sizing: border-box;
+}
+.caption {
+    letter-spacing: 20px;
+    text-transform: uppercase;
+    background: #E0E0E0;
+    background: -webkit-linear-gradient(to bottom, #E0E0E0 11%, #BDBDBD 30%, #9A9A9A 91%, #272727 85%);
+    background: -moz-linear-gradient(to bottom, #E0E0E0 11%, #BDBDBD 30%, #9A9A9A 91%, #272626 85%);
+    background: linear-gradient(to bottom, #E0E0E0 11%, #BDBDBD 30%, #9A9A9A 91%, #0f0f0f 85%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.slide-1{
+    background:url(./assets/img/bg-masthead.jpg) , linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) );
+    background-size: cover;
+}
+.jumbotron-custom{
+    background: transparent;
+}
+.jumbotron-custom1{
+    background: transparent;
+}
+.navbar-custom {
+    background: white;
+} 
+.slide-2 {
+    background: rgb(81,83,85);
+    background: linear-gradient(0deg, rgba(81,83,85,1) 0%, rgba(40,42,42,1) 56%);
+}
+.left-border {
+    border-left: 8px solid rgb(70, 153, 111);;
+}
+.header {
+    font-size: x-large;
+}
+.bg-black {
+    background-color: black;
+}
+.line{
+    width: 100px;
+    height: 4px;
+    background-color: rgb(70, 153, 111);
+}
+.cardLine{
+    width: 60px;
+    height: 4px;
+    background-color: rgb(70, 153, 111);
+}
+.slide-4{
+    background-image:linear-gradient(0deg, rgba(3,27,27,1) 29%, transparent 85%), url(./assets/img/bg-signup.jpg);
+    background-size: cover;
+}
+.icons{
+    color: white;
+}
+/* .btn-bg {
+    background-color: rgb(111, 177, 144);
+} */
+.inputs {
+    width: 75%;
+    margin: 0 auto;
+}
+.icon-color {
+    color: rgb(111, 177, 144);
+}
+@media (min-width: 992px) {
+    .navbar-custom {
+        background: transparent;
+    } 
+    
+}
+@media (max-width: 992px){
+    .jumbotron-custom{
+        margin-top: 60px;
+    }
+    .left-border {
+        border-left: none;
+    }
+    .inputs {
+        width: 100%;
+    }
+    .caption {
+        letter-spacing: 2px;
+    }
+}
